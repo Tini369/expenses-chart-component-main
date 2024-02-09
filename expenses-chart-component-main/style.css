@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap')
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "DM Sans", sans-serif;
+	font-size: 1.1vw;
+}
+
+.main {
+	margin-left: 30vw;
+	margin-top: 5vw;
+	width: 37vw;
+}
+
+.top-bar {
+	background-color: hsl(10, 79%, 65%);
+	color: white;
+	border-radius: 1vw;
+	height: 7vw;
+	padding-left: 1.5vw;
+	padding-top: .2vw;
+}
+
+img {
+	position: absolute;
+	margin-top: -5.5vw;
+	margin-left: 28vw;
+	width: 5vw;
+}
+
+.top-bar p {
+	font-size: 1.1vw;
+}
+
+.top-bar h3 {
+	margin-top: -.3vw;
+	font-size: 1.8vw;
+}
+
+.container {
+	height: 20vw;
+}
+
+
+.container h2 {
+	margin-top: 2.5vw;
+	margin-left: 1vw;
+	font-size: 2vw;
+	font-weight: 550;
+}
+
+ul {
+	margin-left: -4vw;
+	margin-top: 15vw;	
+}
+
+li {
+	font-size: 1.1vw;
+	list-style: none;
+	display: inline;
+	padding-left: 3vw;
+	color: hsl(28, 10%, 53%);
+}
+
+.mon {
+	position: absolute;
+	background-color: hsl(10, 79%, 65%);
+	border-radius: .5vw;
+	margin-top: 9vw;
+	margin-left: 1vw;
+	width: 4vw;
+	height: 4vw;
+}
+
+.data {
+	position: absolute;
+	display: none;
+	text-align: center;
+	font-weight: 700;
+	border-radius: .5vw;
+	background-color: hsl(25, 47%, 15%);
+	color: white;
+	margin-left: .25vw;
+	padding-top: .5vw;
+	width: 5vw;
+	height: 2vw;
+}
+
+.mon:hover + .data {
+	display: block;
+}
+
+.mon:hover {
+	background-color: #ff9b87;
+}
+
+.tue {
+	position: absolute;
+	background-color: hsl(10, 79%, 65%);
+	border-radius: .5vw;
+	margin-top: 5vw;
+	margin-left: 6.5vw;
+	width: 4vw;
+	height: 8vw;
+}
+
+.data2 {
+	position: absolute;
+	display: none;
+	text-align: center;
+	font-weight: 700;
+	border-radius: .5vw;
+	background-color: hsl(25, 47%, 15%);
+	color: white;
+	margin-left: 6vw;
+	padding-top: .5vw;
+	width: 5vw;
+	height: 2vw;
+}
+
+.tue:hover + .data2 {
+	display: block;
+}
+
+.tue:hover {
+	background-color: #ff9b87;
+}
+
+.wed {
+	position: absolute;
+	background-color: hsl(186, 34%, 60%);
+	border-radius: .5vw;
+	margin-top: 2vw;
+	margin-left: 12vw;
+	width: 4vw;
+	height: 11vw;
+}
+
+.data3 {
+	position: absolute;
+	display: none;
+	text-align: center;
+	font-weight: 700;
+	border-radius: .5vw;
+	background-color: hsl(25, 47%, 15%);
+	color: white;
+	margin-left: 11.5vw;
+	margin-top: -1vw;
+	padding-top: .5vw;
+	width: 5vw;
+	height: 2vw;
+}
+
+.wed:hover + .data3 {
+	display: block;
+}
+
+.wed:hover {
+	background-color: #9ad5e8;
+}
+
+.thu {
+	position: absolute;
+	background-color: hsl(10, 79%, 65%);
+	border-radius: .5vw;
+	margin-top: 6vw;
+	margin-left: 17.2vw;
+	width: 4vw;
+	height: 7vw;
+}
+
+.data4 {
+	position: absolute;
+	display: none;
+	text-align: center;
+	font-weight: 700;
+	border-radius: .5vw;
+	background-color: hsl(25, 47%, 15%);
+	color: white;
+	margin-left: 16.5vw;
+	padding-top: .5vw;
+	width: 5vw;
+	height: 2vw;
+}
+
+.thu:hover + .data4 {
+	display: block;
+}
+
+.thu:hover {
+	background-color: #ff9b87;
+}
+
+.fri {
+	position: absolute;
+	background-color: hsl(10, 79%, 65%);
+	border-radius: .5vw;
+	margin-top: 8vw;
+	margin-left: 22.2vw;
+	width: 4vw;
+	height: 5vw;
+}
+
+.data5 {
+	position: absolute;
+	display: none;
+	text-align: center;
+	font-weight: 700;
+	border-radius: .5vw;
+	background-color: hsl(25, 47%, 15%);
+	color: white;
+	margin-left: 21.5vw;
+	padding-top: .5vw;
+	width: 5vw;
+	height: 2vw;
+}
+
+.fri:hover + .data5 {
+	display: block;
+}
+
+.fri:hover {
+	background-color: #ff9b87;
+}
+
+.sat {
+	position: absolute;
+	background-color: hsl(10, 79%, 65%);
+	border-radius: .5vw;
+	margin-top: 4vw;
+	margin-left: 27vw;
+	width: 4vw;
+	height: 9vw;
+}
+
+.data6 {
+	position: absolute;
+	display: none;
+	text-align: center;
+	font-weight: 700;
+	border-radius: .5vw;
+	background-color: hsl(25, 47%, 15%);
+	color: white;
+	margin-left: 26.5vw;
+	padding-top: .5vw;
+	width: 5vw;
+	height: 2vw;
+}
+
+.sat:hover + .data6 {
+	display: block;
+}
+
+.sat:hover {
+	background-color: #ff9b87;
+}
+
+.sun {
+	position: absolute;
+	background-color: hsl(10, 79%, 65%);
+	border-radius: .5vw;
+	margin-top: 8vw;
+	margin-left: 32vw;
+	width: 4vw;
+	height: 5vw;
+}
+
+.data7 {
+	position: absolute;
+	display: none;
+	text-align: center;
+	font-weight: 700;
+	border-radius: .5vw;
+	background-color: hsl(25, 47%, 15%);
+	color: white;
+	margin-left: 31.5vw;
+	padding-top: .5vw;
+	width: 5vw;
+	height: 2vw;
+}
+
+.sun:hover + .data7 {
+	display: block;
+}
+
+.sun:hover {
+	background-color: #ff9b87;
+}
+
+.bottom-bar {
+	margin-top: 5vw;
+}
+
+.bottom-bar h1 {
+	font-size: 3vw;
+	margin-top: -1vw;
+} 
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+	margin-top: 8vw;
+}
+
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
